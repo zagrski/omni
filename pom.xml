@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>dev.jaqobb</groupId>
+  <groupId>com.zagrski</groupId>
   <artifactId>omni</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
@@ -21,18 +21,18 @@
   </licenses>
 
   <scm>
-    <url>https://github.com/jaqobb-playground/omni</url>
-    <connection>scm:git:git://github.com/jaqobb-playground/omni.git</connection>
-    <developerConnection>scm:git:git://github.com/jaqobb-playground/omni.git</developerConnection>
+    <url>https://github.com/zagrski/omni</url>
+    <connection>scm:git:git://github.com/zagrski/omni.git</connection>
+    <developerConnection>scm:git:git://github.com/zagrski/omni.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
   <developers>
     <developer>
-      <id>jaqobb</id>
+      <id>zagrski</id>
       <name>Jakub Zagórski</name>
-      <email>jaqobb@jaqobb.dev</email>
-      <url>https://jaqobb.dev</url>
+      <email>contact@zagrski.com</email>
+      <url>https://zagrski.com</url>
     </developer>
   </developers>
 
@@ -150,15 +150,4 @@
       </plugin>
     </plugins>
   </build>
-
-  <distributionManagement>
-    <repository>
-      <id>jaqobb-repository</id>
-      <url>https://repository.jaqobb.dev/releases</url>
-    </repository>
-    <snapshotRepository>
-      <id>jaqobb-repository</id>
-      <url>https://repository.jaqobb.dev/snapshots</url>
-    </snapshotRepository>
-  </distributionManagement>
 </project>
