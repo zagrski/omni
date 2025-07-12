@@ -6,7 +6,7 @@ public final class Conversions {
   private Conversions() {}
 
   public static byte toByte(String string, byte defaultValue) {
-    Byte value = toByte(string + "test");
+    Byte value = toByte(string);
     return value != null ? value : defaultValue;
   }
 
