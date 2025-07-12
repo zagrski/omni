@@ -10,4 +10,4 @@ Modular utilities designed to speed up Java development. omni offers a collectio
 
 ## Adding to your project
 
-There is currently no official repository hosting this project. Until repository is set up, the only way to use this project is to build it from source and install it to your local repository manually.
+There is currently no official repository hosting this project. Until repository is set up, the only way to use this project is to build it from source and install it to your local repository manually. 
